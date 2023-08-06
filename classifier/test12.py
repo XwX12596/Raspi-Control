@@ -40,7 +40,7 @@ def test12(input):
             return self.bp_net_1(data), self.bp_net_2(data)
 
 
-    cl_net = torch.load('/home/xmh/classifier/model_12.pth')
+    cl_net = torch.load('/home/xmh/raspi-control/classifier/model_12.pth')
 
     data_real= np.array(input)
     data_real = torch.from_numpy(data_real).to(torch.float32)
