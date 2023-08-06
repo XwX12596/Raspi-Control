@@ -31,7 +31,6 @@ STM32 => RaspberryPi(NN + OLED)
 ```
 [Unit]
 Description=raspi-control
-After=multi-user.target
 
 [Service]
 User=xmh
