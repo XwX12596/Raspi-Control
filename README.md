@@ -16,7 +16,7 @@ STM32 => RaspberryPi(NN + OLED)
         - ensure serial
         - enable spi
     - permissions
-        - use pi or add `your user` into `kmem`, `gpio`, `spi`, `tty`, 'dialout' group
+        - use pi or add `your user` into `kmem`, `gpio`, `spi`, `tty`, `dialout` group
         - sudo chmod 666 /dev/ttyAMA0
 2. Python
     - pip
