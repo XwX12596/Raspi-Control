@@ -1,7 +1,7 @@
 # Raspi-Control
 STM32 => RaspberryPi(NN + OLED)
 
-## 安装
+## Deploy
 1. RaspberryPi
     - /boot/config.txt
         - enable_uart=1 
