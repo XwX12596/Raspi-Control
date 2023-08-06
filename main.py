@@ -50,14 +50,6 @@ TableY6by6 = {1:"0102", 2:"0304",3:"0506",4:"0708",5:"0910",6:"1112"}
 TableX12by12 = {1:"A",2:"B",3:"C",4:"D",5:"E",6:"F",7:"G",8:"H",9:"I",10:"J",11:"K",12:"L"}
 TableY12by12 = {1:"01",2:"02",3:"03",4:"04",5:"05",6:"06",7:"07",8:"08",9:"09",10:"10",11:"11",12:"12"}
 
-ser = serial.Serial(
-    port='/dev/ttyAMA0',
-    baudrate=115200,
-    parity=serial.PARITY_NONE,#可以不写
-    stopbits=serial.STOPBITS_ONE,#可以不写
-    bytesize=serial.EIGHTBITS,#可以不写
-    timeout=1)
-
 GPIO.setmode(GPIO.BCM)
 gpio_pin = 17  
 GPIO.setup(gpio_pin, GPIO.IN, pull_up_down=GPIO.PUD_UP)
