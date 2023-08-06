@@ -12,7 +12,5 @@ def showOLED(str, sleeptime=3):
       draw.rectangle(device.bounding_box, outline="white", fill="black")
       draw.text((5, 20), str, fill="white")
 
-    #time.sleep(sleeptime)
-
 if __name__ == '__main__':
     showOLED("Hello World!\nFrom OLED TESTING")
