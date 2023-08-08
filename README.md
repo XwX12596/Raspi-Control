@@ -4,14 +4,14 @@ STM32 => RaspberryPi(NN + OLED)
 ## Deploy
 1. RaspberryPi
     - /boot/config.txt
-        - enable_uart=1 
         - dtoverlay=pi3-miniuart-bt
     - minicom
         - sudo minicom -D /dev/ttyUSB0 -b 115200
     - network
         - sudo systemctl start(enable) NetworkManager
-        - nmtui
+        - sudo nmtui
     - raspi-config
+        - enable ssh
         - autologin
         - ensure serial
         - enable spi
